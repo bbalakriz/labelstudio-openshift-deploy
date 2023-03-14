@@ -24,7 +24,7 @@ oc apply -f odh-minio
 
 2b. If using Developer Sandbox where ODH operator can't be installed, use the following minio setup
 ~~~
-oc apply -f odh-dev-sb
+oc apply -f minio-dev-sb
 ~~~
 
 ## Create Data Bucket Using Minio
