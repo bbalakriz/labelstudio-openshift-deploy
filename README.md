@@ -17,9 +17,14 @@ oc apply -f postgres/
 oc apply -f labelstudio/
 ~~~
 
-2. Apply Open Data Hub Subscription and Apply Minio kfdef
+2a. Apply Open Data Hub Subscription and Apply Minio kfdef
 ~~~
 oc apply -f odh-minio
+~~~
+
+2b. If using Developer Sandbox where ODH operator can't be installed, use the following minio setup
+~~~
+oc apply -f odh-dev-sb
 ~~~
 
 ## Create Data Bucket Using Minio
